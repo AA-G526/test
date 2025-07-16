@@ -1,0 +1,78 @@
+ body {
+      background: #f5f5f5;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .receipt {
+      background: #fff;
+      width: 300px;
+      padding: 10px 15px;
+      border: 1px solid #ddd;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      width: 120px;
+      height: 140px;
+      margin-right: 4px;
+    }
+    .store-name {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    .store-address, .store-phone {
+      font-size: 12px;
+      margin-bottom: 1px;
+    }
+    hr {
+      border: none;
+      border-top: 1px dashed #000;
+      margin: 5px 0;
+    }
+    .details p, .additional p, .notice p, .agreement, .thanks {
+      font-size: 12px;
+      margin: 2px 0;
+    }
+    .totals p {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      margin: 2px 0;
+    }
+    .notice p {
+      text-align: left;
+    }
+    .agreement, .thanks {
+      text-align: center;
+      margin-top: 5px;
+    }
+    .btn {
+      font-size: 12px;
+      margin: 2px;
+      cursor: pointer;
+    }
+    .form-add input, .form-edit-item input, .form-edit-store input, .form-pay input, .form-edit-details input {
+      width: 95%;
+      font-size: 12px;
+      margin: 2px 0;
+    }
+    .item-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 2px 0;
+    }
+    .item-row p {
+      margin: 0;
+      font-size: 12px;
+    }
+    .item-name-qty {
+      flex: 1;
+    }
+    .item-subtotal {
+      flex: 0 0 auto;
+    }
